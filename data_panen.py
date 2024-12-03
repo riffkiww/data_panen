@@ -49,7 +49,7 @@ for lokasi, info in data_panen.items():
     if padi > 1300 or info["hasil_panen"]["jagung"] > 800:
         kondisi = "memerlukan perhatian khusus"
     else:
-        kondisi = "dalam kondisi baik"
+         kondisi = "dalam kondisi baik"
     
     # Menampilkan hasil panen dan status lokasi
     print(f"Nama Lokasi: {info['nama_lokasi']}")
