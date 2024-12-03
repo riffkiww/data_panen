@@ -53,6 +53,7 @@ for lokasi, info in data_panen.items():
     
     # Menampilkan hasil panen dan status lokasi
     print(f"Nama Lokasi: {info['nama_lokasi']}")
+    print("nama")
     print(f"  Hasil Panen Padi: {padi}")
     print(f"  Hasil Panen Kedelai: {kedelai}")
     print(f"  Status Lokasi: {kondisi}")
